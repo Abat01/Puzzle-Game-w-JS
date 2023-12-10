@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>8 Puzzle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="welcome">
+        <div id="title">
+            Puzzle Oýny
+        </div>
+        <div id="info">
+            <p>Asman Kodlama Mentorlygy<br/>TASLAMA<br/>Güýz 2023</p>
+        </div>
+        <div class="button">
+            START
+        </div>
+    </div>
+    
+    <div id="choose" >
+        <div id="select">
+            Surat saýlaň
+        </div>
+        <div id="images">
+            <img src="img/1.jpg" >
+            <img src="img/2.jpeg" >
+            <img src="img/l.jpg" >
+        </div>
+        <div class="button" style="display:none">
+            Dowam Et!
+        </div>
+    </div>
+
+    <div id="game" style="display:none">
+    </div>
+    <div id="shuffle" style="display:none">
+        <span>Shuffle</span>
+        <select>
+            <option value="0">-- Shuffle Mukdary --</option>
+            <option value="3">3 Göçüm</option>
+            <option value="30">30 Göçüm</option>
+        </select>
+        <div class="button" style="display:none">
+                Seç
+        </div>
+    </div>
+    <div id="solve" style="display:none">PUZZLE täzeden çözmäne taýýarlan</div>
+    <div id="restart" style="display:none">F5 to restart</div>
+    <div id="end" style="display:none">Gutlaýaryn!</div>
+</body>
+</html>
